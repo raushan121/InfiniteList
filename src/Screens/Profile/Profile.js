@@ -46,9 +46,14 @@ render(){
     <Text style={styles.text}>RAUSHAN KUMAR</Text>
     <Text style={styles.txt}>Code Brew Lab,Sector 27, Chandigarh</Text>
     <View style={styles.tt}>
-      <Text>Photos</Text>
-      <Text>Followers</Text>
-      <Text>Follow</Text>
+      <Text style={{margin:20,fontFamily:'bold',fontSize:20}}>Photos </Text>
+      <Text style={{margin:20,fontFamily:'bold',fontSize:20}}>Followers</Text>
+      <Text style={{margin:20,fontFamily:'bold',fontSize:20}}>Follow</Text>
+    </View>
+    <View style={{flexDirection:'row',marginVertical:-40}}>
+    <Text style={{margin:45,fontFamily:'bold',fontSize:20}}>20</Text>
+      <Text style={{margin:45,fontFamily:'bold',fontSize:20}}>500</Text>
+      <Text style={{margin:45,fontFamily:'bold',fontSize:20}}>100</Text>
     </View>
       {/* <Text>LOGOUT</Text> */}
       <SendOtpButton

@@ -5,5 +5,6 @@ export default{
     list:require("../assets/images/list.png"),
     profile:require("../assets/images/profile.png"),
    loginBg:require("../assets/images/loginBg.jpg"),
-   profilePic:require('../assets/images/profilePic.jpg')
+   profilePic:require('../assets/images/profilePic.jpg'),
+   menuIcon:require("../assets/images/menu-icon.png")
 }

@@ -1,14 +1,18 @@
+import { useNavigation } from '@react-navigation/core'
 import React from 'react'
 import { View, Text , Image , StyleSheet, TouchableOpacity} from 'react-native'
 import imagePath from '../constants/imagePath'
+import navigationStrings from '../constants/navigationStrings'
+
 
 
 export default function Header({textData , onBack}) {
+    const navigation=useNavigation();
     
     return (
         <View style={{flexDirection:'row'}}>
-            <TouchableOpacity onPress={()=>onBack()}>
-            <Image source={imagePath.backIcon} style={styles.backIcon} 
+            <TouchableOpacity onPress={()=>navigation.openDrawer()}>
+            <Image source={imagePath.menuIcon} style={styles.backIcon} 
             />
             </TouchableOpacity>
                 <Text style={styles.textData}>{textData}</Text>

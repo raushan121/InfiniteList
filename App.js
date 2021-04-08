@@ -42,7 +42,7 @@ export default class App extends Component {
   render() {
     return (
       <Provider store={store }>
-      <View style={{justifyContent:'center',alignItems:'center'}}><Text>Recieved push notification</Text></View>
+     {/* // <View style={{justifyContent:'center',alignItems:'center'}}><Text>Recieved push notification</Text></View> */}
       <Routes/>
       <FlashMessage position="top" />
 </Provider>

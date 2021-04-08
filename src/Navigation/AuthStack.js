@@ -11,14 +11,14 @@ const Stack = createStackNavigator();
 function AuthStack() {
   return (
     <React.Fragment>
-       
+       <Stack.Navigator>
        
       <Stack.Screen options={{ headerShown: false }} name={navigationStrings.LOGIN} component={Login} />
       <Stack.Screen options={{ headerShown: false }} name={navigationStrings.OTP_VERIFICATION} component={OtpVerification} />
 
       
 
-
+</Stack.Navigator>
     </React.Fragment>
   );
 }

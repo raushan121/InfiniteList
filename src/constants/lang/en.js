@@ -9,7 +9,13 @@ export default{
     CHANGE_THEME :"Change Theme",
     INFINITE_LIST :"INFINITE LIST",
     HOME:"HOME",
-    PROFILE:"PROFILE"
+    PROFILE:"PROFILE",
+    QRCODE:"QRCODE",
+    CHART:"CHART",
+    CHAT:"CHAT",
+    QRCODE:"QRCODE",
+    IMAGEZOOM:"IMAGEZOOM"
+
 
 
 

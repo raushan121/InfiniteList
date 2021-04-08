@@ -106,7 +106,7 @@ export default class Login extends Component {
                     <Image source={imagePath.profilePic} style={styles.loginBg}/>
                     <View>
                         <Text style={styles.text}>
-                            Enter the Mobile Number associated with your account
+                            Enter the Mobile Number associated with your account 
                         </Text>
                     </View>
                     <View style={styles.input}>
